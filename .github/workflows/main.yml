@@ -74,4 +74,4 @@ jobs:
          keep_latest: 5
          delete_tags: true
        env:
-         GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+         committer_token: ${{ secrets.GITHUB_TOKEN }}
